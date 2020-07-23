@@ -8,23 +8,23 @@
 
 ## :information_source: Sobre o projeto
 
-### A ideia deste projeto é poder adicionar repositórios do Github via API e encontrar as "issues" dos repositórios. O projeto apresenta basicamente duas páginas: Main e Repository.
+A ideia deste projeto é poder adicionar repositórios do Github via API e encontrar as "issues" dos repositórios. O projeto apresenta basicamente duas páginas: Main e Repository.
 
 ## :black_nib: Funcionalidades
 
-### 1. O usuário poderá adicionar o repositório do Github. A aplicação não permite adicionar repositórios duplicados.
+1. O usuário poderá adicionar o repositório do Github. A aplicação não permite adicionar repositórios duplicados.
 
-### 2. Ao acessar um repositório via link Detalhes, a tela repository será carregada.
+2. Ao acessar um repositório via link Detalhes, a tela repository será carregada.
 
-### 3. O usuário poderá filtrar as "issues" que o repositário contem, podendo visualizar pelos seguintes status: Todas, Abertas, ou Fechadas.
+3. O usuário poderá filtrar as "issues" que o repositário contem, podendo visualizar pelos seguintes status: Todas, Abertas, ou Fechadas.
 
-### 4. O usuário poderá clicar sobre a "issue" para ver mais detalhes da mesma diretamente no Github.
+4. O usuário poderá clicar sobre a "issue" para ver mais detalhes da mesma diretamente no Github.
 
-### 5. A página repository exibirá 5 "issues" por vez, podendo o usuário navegar pelos botões de paginação na parte inferir da página.
+5. A página repository exibirá 5 "issues" por vez, podendo o usuário navegar pelos botões de paginação na parte inferir da página.
 
 ## :rocket: Tecnologias
 
-### Além do ReactJS também foram utilizadas algumas tecnologias/bibliotecas como:
+Além do ReactJS também foram utilizadas algumas tecnologias/bibliotecas como:
 
 - Axios
 - PropTypes
@@ -35,7 +35,7 @@
 
 ## :construction_worker: Como utilizar
 
-### É possível clonar o projeto com o comando abaixo:
+É possível clonar o projeto com o comando abaixo:
 
 ```
 git clone https://github.com/edenex/bootcamp-gostack-modulo-05.git
