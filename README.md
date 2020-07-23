@@ -6,11 +6,11 @@
 </br>
 <img src="./src/assets/img-page-repository.jpg" alt="Página repository do projeto">
 
-## information_source: Sobre o projeto
+## :information_source: Sobre o projeto
 
 ### A ideia deste projeto é poder adicionar repositórios do Github via API e encontrar as "issues" dos repositórios. O projeto apresenta basicamente duas páginas: Main e Repository.
 
-## rocket: Funcionalidades
+## :black_nib: Funcionalidades
 
 ### 1. O usuário poderá adicionar o repositório do Github. A aplicação não permite adicionar repositórios duplicados.
 
@@ -22,7 +22,7 @@
 
 ### 5. A página repository exibirá 5 "issues" por vez, podendo o usuário navegar pelos botões de paginação na parte inferir da página.
 
-## rocket: Tecnologias
+## :rocket: Tecnologias
 
 ### Além do ReactJS também foram utilizadas algumas tecnologias/bibliotecas como:
 
@@ -33,7 +33,7 @@
 - Css
 - Html
 
-## construction_worker: Como utilizar
+## :construction_worker: Como utilizar
 
 ### É possível clonar o projeto com o comando abaixo:
 
@@ -41,7 +41,7 @@
 git clone https://github.com/edenex/bootcamp-gostack-modulo-05.git
 ```
 
-## memo: Licença
+## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
