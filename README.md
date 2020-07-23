@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  Desafio 5: Primeiro projeto com ReactJS
+</h1>
 
-## Available Scripts
+<img src="./src/assets/img-page-main.jpg" alt="Página principal (Main) do projeto">
+</br>
+<img src="./src/assets/img-page-repository.jpg" alt="Página repository do projeto">
 
-In the project directory, you can run:
+## information_source: Sobre o projeto
 
-### `yarn start`
+### A ideia deste projeto é poder adicionar repositórios do Github via API e encontrar as "issues" dos repositórios. O projeto apresenta basicamente duas páginas: Main e Repository.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## rocket: Funcionalidades
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 1. O usuário poderá adicionar o repositório do Github. A aplicação não permite adicionar repositórios duplicados.
 
-### `yarn test`
+### 2. Ao acessar um repositório via link Detalhes, a tela repository será carregada.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. O usuário poderá filtrar as "issues" que o repositário contem, podendo visualizar pelos seguintes status: Todas, Abertas, ou Fechadas.
 
-### `yarn build`
+### 4. O usuário poderá clicar sobre a "issue" para ver mais detalhes da mesma diretamente no Github.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 5. A página repository exibirá 5 "issues" por vez, podendo o usuário navegar pelos botões de paginação na parte inferir da página.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## rocket: Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Além do ReactJS também foram utilizadas algumas tecnologias/bibliotecas como:
 
-### `yarn eject`
+- Axios
+- PropTypes
+- Express
+- Eslint + Prettier + Babel
+- Css
+- Html
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## construction_worker: Como utilizar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### É possível clonar o projeto com o comando abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+git clone https://github.com/edenex/bootcamp-gostack-modulo-05.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## memo: Licença
 
-## Learn More
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feito com 🧡 by [Edenir de Souza](https://github.com/edenex) 😉
